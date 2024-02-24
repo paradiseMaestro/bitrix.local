@@ -192,7 +192,7 @@ $APPLICATION->SetTitle("Рецепты");
         </div>
         <picture class="picture">
           <source type="image/webp" srcset="assets/images/resipes-img1.webp" />
-          <img class="picture__img" src="assets/images/resipes-img1.png" />
+          <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/resipes-img1.png" />
         </picture>
         <div class="recipes-card__rect-time">
           <div class="recipes-card__rect-icon">
@@ -233,7 +233,7 @@ $APPLICATION->SetTitle("Рецепты");
         </div>
         <picture class="picture">
           <source type="image/webp" srcset="assets/images/resipes-img2.webp" />
-          <img class="picture__img" src="assets/images/resipes-img2.png" />
+          <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/resipes-img2.png" />
         </picture>
         <div class="recipes-card__rect-time">
           <div class="recipes-card__rect-icon">
@@ -274,7 +274,7 @@ $APPLICATION->SetTitle("Рецепты");
         </div>
         <picture class="picture">
           <source type="image/webp" srcset="assets/images/resipes-img3.webp" />
-          <img class="picture__img" src="assets/images/resipes-img3.png" />
+          <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/resipes-img3.png" />
         </picture>
         <div class="recipes-card__rect-time">
           <div class="recipes-card__rect-icon">
@@ -315,7 +315,7 @@ $APPLICATION->SetTitle("Рецепты");
         </div>
         <picture class="picture">
           <source type="image/webp" srcset="assets/images/resipes-img2.webp" />
-          <img class="picture__img" src="assets/images/resipes-img2.png" />
+          <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/resipes-img2.png" />
         </picture>
         <div class="recipes-card__rect-time">
           <div class="recipes-card__rect-icon">
@@ -356,7 +356,7 @@ $APPLICATION->SetTitle("Рецепты");
         </div>
         <picture class="picture">
           <source type="image/webp" srcset="assets/images/resipes-img3.webp" />
-          <img class="picture__img" src="assets/images/resipes-img3.png" />
+          <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/resipes-img3.png" />
         </picture>
         <div class="recipes-card__rect-time">
           <div class="recipes-card__rect-icon">
@@ -397,7 +397,7 @@ $APPLICATION->SetTitle("Рецепты");
         </div>
         <picture class="picture">
           <source type="image/webp" srcset="assets/images/resipes-img1.webp" />
-          <img class="picture__img" src="assets/images/resipes-img1.png" />
+          <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/resipes-img1.png" />
         </picture>
         <div class="recipes-card__rect-time">
           <div class="recipes-card__rect-icon">
@@ -438,7 +438,7 @@ $APPLICATION->SetTitle("Рецепты");
         </div>
         <picture class="picture">
           <source type="image/webp" srcset="assets/images/resipes-img1.webp" />
-          <img class="picture__img" src="assets/images/resipes-img1.png" />
+          <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/resipes-img1.png" />
         </picture>
         <div class="recipes-card__rect-time">
           <div class="recipes-card__rect-icon">
@@ -479,7 +479,7 @@ $APPLICATION->SetTitle("Рецепты");
         </div>
         <picture class="picture">
           <source type="image/webp" srcset="assets/images/resipes-img2.webp" />
-          <img class="picture__img" src="assets/images/resipes-img2.png" />
+          <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/resipes-img2.png" />
         </picture>
         <div class="recipes-card__rect-time">
           <div class="recipes-card__rect-icon">
@@ -520,7 +520,7 @@ $APPLICATION->SetTitle("Рецепты");
         </div>
         <picture class="picture">
           <source type="image/webp" srcset="assets/images/resipes-img3.webp" />
-          <img class="picture__img" src="assets/images/resipes-img3.png" />
+          <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/resipes-img3.png" />
         </picture>
         <div class="recipes-card__rect-time">
           <div class="recipes-card__rect-icon">
@@ -561,7 +561,7 @@ $APPLICATION->SetTitle("Рецепты");
         </div>
         <picture class="picture">
           <source type="image/webp" srcset="assets/images/resipes-img2.webp" />
-          <img class="picture__img" src="assets/images/resipes-img2.png" />
+          <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/resipes-img2.png" />
         </picture>
         <div class="recipes-card__rect-time">
           <div class="recipes-card__rect-icon">
@@ -602,7 +602,7 @@ $APPLICATION->SetTitle("Рецепты");
         </div>
         <picture class="picture">
           <source type="image/webp" srcset="assets/images/resipes-img3.webp" />
-          <img class="picture__img" src="assets/images/resipes-img3.png" />
+          <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/resipes-img3.png" />
         </picture>
         <div class="recipes-card__rect-time">
           <div class="recipes-card__rect-icon">
@@ -643,7 +643,7 @@ $APPLICATION->SetTitle("Рецепты");
         </div>
         <picture class="picture">
           <source type="image/webp" srcset="assets/images/resipes-img1.webp" />
-          <img class="picture__img" src="assets/images/resipes-img1.png" />
+          <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/resipes-img1.png" />
         </picture>
         <div class="recipes-card__rect-time">
           <div class="recipes-card__rect-icon">
@@ -691,7 +691,7 @@ $APPLICATION->SetTitle("Рецепты");
           type="image/webp"
           srcset="assets/images/section-mailing-bg.webp"
         />
-        <img class="picture__img" src="assets/images/section-mailing-bg.png" />
+        <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/section-mailing-bg.png" />
       </picture>
     </div>
     <div class="section-mailing__bg device-bg">
@@ -702,7 +702,7 @@ $APPLICATION->SetTitle("Рецепты");
         />
         <img
           class="picture__img"
-          src="assets/images/section-mailing-bg-device.png"
+          src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/section-mailing-bg-device.png"
         />
       </picture>
     </div>
@@ -714,7 +714,7 @@ $APPLICATION->SetTitle("Рецепты");
         />
         <img
           class="picture__img"
-          src="assets/images/section-mailing-bg-mobile.png"
+          src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/section-mailing-bg-mobile.png"
         />
       </picture>
     </div>

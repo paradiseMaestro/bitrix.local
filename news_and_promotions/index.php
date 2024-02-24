@@ -137,7 +137,7 @@ $APPLICATION->SetTitle("Новости и акции");
             type="image/webp"
             srcset="assets/images/main-news-card1.webp"
           />
-          <img class="picture__img" src="assets/images/main-news-card1.png" />
+          <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/main-news-card1.png" />
         </picture>
       </div>
       <h2>
@@ -198,7 +198,7 @@ $APPLICATION->SetTitle("Новости и акции");
             type="image/webp"
             srcset="assets/images/main-news-card2.webp"
           />
-          <img class="picture__img" src="assets/images/main-news-card2.png" />
+          <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/main-news-card2.png" />
         </picture>
       </div>
       <h4>Подпись к фото</h4>
@@ -213,7 +213,7 @@ $APPLICATION->SetTitle("Новости и акции");
           type="image/webp"
           srcset="assets/images/section-mailing-bg.webp"
         />
-        <img class="picture__img" src="assets/images/section-mailing-bg.png" />
+        <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/section-mailing-bg.png" />
       </picture>
     </div>
     <div class="section-mailing__bg device-bg">
@@ -224,7 +224,7 @@ $APPLICATION->SetTitle("Новости и акции");
         />
         <img
           class="picture__img"
-          src="assets/images/section-mailing-bg-device.png"
+          src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/section-mailing-bg-device.png"
         />
       </picture>
     </div>
@@ -236,7 +236,7 @@ $APPLICATION->SetTitle("Новости и акции");
         />
         <img
           class="picture__img"
-          src="assets/images/section-mailing-bg-mobile.png"
+          src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/section-mailing-bg-mobile.png"
         />
       </picture>
     </div>

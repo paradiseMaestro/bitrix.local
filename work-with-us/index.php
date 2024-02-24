@@ -98,7 +98,7 @@ $APPLICATION->SetTitle("Работа у нас");
               type="image/webp"
               srcset="assets/images/blue-romb-bg.webp"
             />
-            <img class="picture__img" src="assets/images/blue-romb-bg.png" />
+            <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/blue-romb-bg.png" />
           </picture>
         </div>
         <div class="work-hero__rect-box">
@@ -136,7 +136,7 @@ $APPLICATION->SetTitle("Работа у нас");
                   />
                   <img
                     class="picture__img"
-                    src="assets/images/work-slider-img1.png"
+                    src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/work-slider-img1.png"
                   />
                 </picture>
               </div>
@@ -150,7 +150,7 @@ $APPLICATION->SetTitle("Работа у нас");
                   />
                   <img
                     class="picture__img"
-                    src="assets/images/work-slider-img1.png"
+                    src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/work-slider-img1.png"
                   />
                 </picture>
               </div>
@@ -164,7 +164,7 @@ $APPLICATION->SetTitle("Работа у нас");
                   />
                   <img
                     class="picture__img"
-                    src="assets/images/work-slider-img1.png"
+                    src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/work-slider-img1.png"
                   />
                 </picture>
               </div>
@@ -178,7 +178,7 @@ $APPLICATION->SetTitle("Работа у нас");
                   />
                   <img
                     class="picture__img"
-                    src="assets/images/work-slider-img1.png"
+                    src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/work-slider-img1.png"
                   />
                 </picture>
               </div>

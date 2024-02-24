@@ -509,12 +509,12 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
 							<div class="main-catalog__list header-prod"><a class="main-catalog__item btn-hover_parent" href="#">
 									<div class="main-catalog__item-bg desktop-only">
 										<picture class="picture">
-											<source type="image/webp" srcset="assets/images/main-catalog-item-bg1-header.webp"><img class="picture__img" src="assets/images/main-catalog-item-bg1-header.png">
+											<source type="image/webp" srcset="assets/images/main-catalog-item-bg1-header.webp"><img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/main-catalog-item-bg1-header.png">
 										</picture>
 									</div>
 									<div class="main-catalog__item-bg mobile-only">
 										<picture class="picture">
-											<source type="image/webp" srcset="assets/images/header-production-mobile1.webp"><img class="picture__img" src="assets/images/header-production-mobile1.png">
+											<source type="image/webp" srcset="assets/images/header-production-mobile1.webp"><img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/header-production-mobile1.png">
 										</picture>
 									</div>
 									<div class="main-catalog__item-row">
@@ -568,12 +568,12 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
 								</a><a class="main-catalog__item btn-hover_parent" href="#">
 									<div class="main-catalog__item-bg desktop-only">
 										<picture class="picture">
-											<source type="image/webp" srcset="assets/images/main-catalog-item-bg2-header.webp"><img class="picture__img" src="assets/images/main-catalog-item-bg2-header.png">
+											<source type="image/webp" srcset="assets/images/main-catalog-item-bg2-header.webp"><img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/main-catalog-item-bg2-header.png">
 										</picture>
 									</div>
 									<div class="main-catalog__item-bg mobile-only">
 										<picture class="picture">
-											<source type="image/webp" srcset="assets/images/header-production-mobile2.webp"><img class="picture__img" src="assets/images/header-production-mobile2.png">
+											<source type="image/webp" srcset="assets/images/header-production-mobile2.webp"><img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/header-production-mobile2.png">
 										</picture>
 									</div>
 									<div class="main-catalog__item-row">
@@ -627,12 +627,12 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
 								</a><a class="main-catalog__item btn-hover_parent" href="#">
 									<div class="main-catalog__item-bg desktop-only">
 										<picture class="picture">
-											<source type="image/webp" srcset="assets/images/main-catalog-item-bg3-header.webp"><img class="picture__img" src="assets/images/main-catalog-item-bg3-header.png">
+											<source type="image/webp" srcset="assets/images/main-catalog-item-bg3-header.webp"><img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/main-catalog-item-bg3-header.png">
 										</picture>
 									</div>
 									<div class="main-catalog__item-bg mobile-only">
 										<picture class="picture">
-											<source type="image/webp" srcset="assets/images/header-production-mobile3.webp"><img class="picture__img" src="assets/images/header-production-mobile3.png">
+											<source type="image/webp" srcset="assets/images/header-production-mobile3.webp"><img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/header-production-mobile3.png">
 										</picture>
 									</div>
 									<div class="main-catalog__item-row">

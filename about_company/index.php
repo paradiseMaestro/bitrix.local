@@ -43,7 +43,7 @@ $APPLICATION->SetTitle("О компании");
       />
       <img
         class="picture__img"
-        src="assets/images/about-production-popup-icecream.png"
+        src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-production-popup-icecream.png"
       />
     </picture>
   </div>
@@ -141,7 +141,7 @@ $APPLICATION->SetTitle("О компании");
       />
       <img
         class="picture__img"
-        src="assets/images/about-production-popup-cookies.png"
+        src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-production-popup-cookies.png"
       />
     </picture>
   </div>
@@ -496,7 +496,7 @@ $APPLICATION->SetTitle("О компании");
       </div>
       <div class="main-traditions__video-video" data-aos="fade-up">
         <video
-          src="assets/videos/zp_preview.mp4"
+          src="<?php echo SITE_TEMPLATE_PATH ?>/assets/videos/zp_preview.mp4"
           loop
           muted
           playsinline
@@ -1068,7 +1068,7 @@ $APPLICATION->SetTitle("О компании");
               />
               <img
                 class="picture__img"
-                src="assets/images/about-production-img-milk.png"
+                src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-production-img-milk.png"
               />
             </picture>
           </div>
@@ -1086,7 +1086,7 @@ $APPLICATION->SetTitle("О компании");
               />
               <img
                 class="picture__img"
-                src="assets/images/about-production-img-zavod.png"
+                src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-production-img-zavod.png"
               />
             </picture>
           </div>
@@ -1107,7 +1107,7 @@ $APPLICATION->SetTitle("О компании");
                 />
                 <img
                   class="picture__img"
-                  src="assets/images/about-item-img-zavod.png"
+                  src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-item-img-zavod.png"
                 />
               </picture>
             </div>
@@ -1159,7 +1159,7 @@ $APPLICATION->SetTitle("О компании");
                 />
                 <img
                   class="picture__img"
-                  src="assets/images/about-item-img-cookies.png"
+                  src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-item-img-cookies.png"
                 />
               </picture>
             </div>
@@ -1218,7 +1218,7 @@ $APPLICATION->SetTitle("О компании");
       <div class="about-evaluate__item-img">
         <picture class="picture">
           <source type="image/webp" srcset="assets/images/about-diplom1.webp" />
-          <img class="picture__img" src="assets/images/about-diplom1.png" />
+          <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-diplom1.png" />
         </picture>
       </div>
     </div>
@@ -1226,7 +1226,7 @@ $APPLICATION->SetTitle("О компании");
       <div class="about-evaluate__item-img">
         <picture class="picture">
           <source type="image/webp" srcset="assets/images/about-diplom2.webp" />
-          <img class="picture__img" src="assets/images/about-diplom2.png" />
+          <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-diplom2.png" />
         </picture>
       </div>
     </div>
@@ -1239,7 +1239,7 @@ $APPLICATION->SetTitle("О компании");
           />
           <img
             class="picture__img"
-            src="assets/images/about-diplom-medal1.png"
+            src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-diplom-medal1.png"
           />
         </picture>
       </div>
@@ -1253,7 +1253,7 @@ $APPLICATION->SetTitle("О компании");
           />
           <img
             class="picture__img"
-            src="assets/images/about-diplom-medal2.png"
+            src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-diplom-medal2.png"
           />
         </picture>
       </div>
@@ -1334,7 +1334,7 @@ $APPLICATION->SetTitle("О компании");
           />
           <img
             class="picture__img"
-            src="assets/images/about-rect-bg-blue.png"
+            src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-rect-bg-blue.png"
           />
         </picture>
       </div>
@@ -1391,7 +1391,7 @@ $APPLICATION->SetTitle("О компании");
                 />
                 <img
                   class="picture__img"
-                  src="assets/images/freezing-slider1.png"
+                  src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/freezing-slider1.png"
                 />
               </picture>
             </div>
@@ -1405,7 +1405,7 @@ $APPLICATION->SetTitle("О компании");
                 />
                 <img
                   class="picture__img"
-                  src="assets/images/freezing-slider2.png"
+                  src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/freezing-slider2.png"
                 />
               </picture>
             </div>
@@ -1419,7 +1419,7 @@ $APPLICATION->SetTitle("О компании");
                 />
                 <img
                   class="picture__img"
-                  src="assets/images/freezing-slider3.png"
+                  src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/freezing-slider3.png"
                 />
               </picture>
             </div>
@@ -1433,7 +1433,7 @@ $APPLICATION->SetTitle("О компании");
                 />
                 <img
                   class="picture__img"
-                  src="assets/images/freezing-slider4.png"
+                  src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/freezing-slider4.png"
                 />
               </picture>
             </div>
@@ -1447,7 +1447,7 @@ $APPLICATION->SetTitle("О компании");
                 />
                 <img
                   class="picture__img"
-                  src="assets/images/freezing-slider5.png"
+                  src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/freezing-slider5.png"
                 />
               </picture>
             </div>
@@ -1461,7 +1461,7 @@ $APPLICATION->SetTitle("О компании");
                 />
                 <img
                   class="picture__img"
-                  src="assets/images/freezing-slider6.png"
+                  src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/freezing-slider6.png"
                 />
               </picture>
             </div>
@@ -1475,7 +1475,7 @@ $APPLICATION->SetTitle("О компании");
                 />
                 <img
                   class="picture__img"
-                  src="assets/images/freezing-slider7.png"
+                  src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/freezing-slider7.png"
                 />
               </picture>
             </div>
@@ -1489,7 +1489,7 @@ $APPLICATION->SetTitle("О компании");
                 />
                 <img
                   class="picture__img"
-                  src="assets/images/freezing-slider8.png"
+                  src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/freezing-slider8.png"
                 />
               </picture>
             </div>
@@ -1503,7 +1503,7 @@ $APPLICATION->SetTitle("О компании");
                 />
                 <img
                   class="picture__img"
-                  src="assets/images/freezing-slider9.png"
+                  src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/freezing-slider9.png"
                 />
               </picture>
             </div>
@@ -1517,7 +1517,7 @@ $APPLICATION->SetTitle("О компании");
                 />
                 <img
                   class="picture__img"
-                  src="assets/images/freezing-slider10.png"
+                  src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/freezing-slider10.png"
                 />
               </picture>
             </div>
@@ -1685,7 +1685,7 @@ $APPLICATION->SetTitle("О компании");
           type="image/webp"
           srcset="assets/images/social-support-box.webp"
         />
-        <img class="picture__img" src="assets/images/social-support-box.png" />
+        <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/social-support-box.png" />
       </picture>
     </div>
     <div class="about-social__item">
@@ -1694,7 +1694,7 @@ $APPLICATION->SetTitle("О компании");
           type="image/webp"
           srcset="assets/images/social-support-kids.webp"
         />
-        <img class="picture__img" src="assets/images/social-support-kids.png" />
+        <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/social-support-kids.png" />
       </picture>
     </div>
     <div class="about-social__card white">
@@ -1815,7 +1815,7 @@ $APPLICATION->SetTitle("О компании");
                   />
                   <img
                     class="picture__img"
-                    src="assets/images/about-history-img1.png"
+                    src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-history-img1.png"
                   />
                 </picture>
               </div>
@@ -1829,7 +1829,7 @@ $APPLICATION->SetTitle("О компании");
                   />
                   <img
                     class="picture__img"
-                    src="assets/images/about-history-img2.png"
+                    src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-history-img2.png"
                   />
                 </picture>
               </div>
@@ -1843,7 +1843,7 @@ $APPLICATION->SetTitle("О компании");
                   />
                   <img
                     class="picture__img"
-                    src="assets/images/about-history-img3.png"
+                    src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-history-img3.png"
                   />
                 </picture>
               </div>
@@ -1857,7 +1857,7 @@ $APPLICATION->SetTitle("О компании");
                   />
                   <img
                     class="picture__img"
-                    src="assets/images/about-history-img4.png"
+                    src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-history-img4.png"
                   />
                 </picture>
               </div>
@@ -1871,7 +1871,7 @@ $APPLICATION->SetTitle("О компании");
                   />
                   <img
                     class="picture__img"
-                    src="assets/images/about-history-img5.png"
+                    src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-history-img5.png"
                   />
                 </picture>
               </div>
@@ -1885,7 +1885,7 @@ $APPLICATION->SetTitle("О компании");
                   />
                   <img
                     class="picture__img"
-                    src="assets/images/about-history-img6.png"
+                    src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-history-img6.png"
                   />
                 </picture>
               </div>
@@ -1899,7 +1899,7 @@ $APPLICATION->SetTitle("О компании");
                   />
                   <img
                     class="picture__img"
-                    src="assets/images/about-history-img7.png"
+                    src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-history-img7.png"
                   />
                 </picture>
               </div>
@@ -2124,7 +2124,7 @@ $APPLICATION->SetTitle("О компании");
         poster="./assets/images/about-production-popup-icecream.png"
         preload="none"
       >
-        <source src="./assets/videos/video-zdor-product.mp4" />
+        <source src="<?php echo SITE_TEMPLATE_PATH ?>/./assets/videos/video-zdor-product.mp4" />
       </video>
     </div>
   </div>
