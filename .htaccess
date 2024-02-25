@@ -1,5 +1,6 @@
 Options -Indexes 
 ErrorDocument 404 /404.php
+ErrorDocument 403 /403.php
 
 <IfModule mod_rewrite.c>
   Options +FollowSymLinks

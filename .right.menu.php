@@ -9,7 +9,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Где купить", 
-		"where_is_buy", 
+		"where_to_buy", 
 		Array(), 
 		Array(), 
 		"" 

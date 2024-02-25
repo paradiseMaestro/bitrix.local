@@ -91,7 +91,7 @@ $APPLICATION->SetTitle("Торговые марки");
     <a class="mark-card" href="#" target="_blank">
       <div class="mark-card__img">
         <picture class="picture">
-          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/trade-mark1.webp" />
+          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark1.webp" />
           <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark1.png" />
         </picture>
       </div>
@@ -99,7 +99,7 @@ $APPLICATION->SetTitle("Торговые марки");
     ><a class="mark-card" href="#" target="_blank">
       <div class="mark-card__img">
         <picture class="picture">
-          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/trade-mark2.webp" />
+          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark2.webp" />
           <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark2.png" />
         </picture>
       </div>
@@ -107,7 +107,7 @@ $APPLICATION->SetTitle("Торговые марки");
     ><a class="mark-card" href="#" target="_blank">
       <div class="mark-card__img">
         <picture class="picture">
-          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/trade-mark3.webp" />
+          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark3.webp" />
           <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark3.png" />
         </picture>
       </div>
@@ -115,7 +115,7 @@ $APPLICATION->SetTitle("Торговые марки");
     ><a class="mark-card" href="#" target="_blank">
       <div class="mark-card__img">
         <picture class="picture">
-          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/trade-mark4.webp" />
+          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark4.webp" />
           <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark4.png" />
         </picture>
       </div>
@@ -123,7 +123,7 @@ $APPLICATION->SetTitle("Торговые марки");
     ><a class="mark-card" href="#" target="_blank">
       <div class="mark-card__img">
         <picture class="picture">
-          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/trade-mark5.webp" />
+          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark5.webp" />
           <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark5.png" />
         </picture>
       </div>
@@ -131,7 +131,7 @@ $APPLICATION->SetTitle("Торговые марки");
     ><a class="mark-card" href="#" target="_blank">
       <div class="mark-card__img">
         <picture class="picture">
-          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/trade-mark6.webp" />
+          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark6.webp" />
           <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark6.png" />
         </picture>
       </div>
@@ -139,7 +139,7 @@ $APPLICATION->SetTitle("Торговые марки");
     ><a class="mark-card" href="#" target="_blank">
       <div class="mark-card__img">
         <picture class="picture">
-          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/trade-mark7.webp" />
+          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark7.webp" />
           <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark7.png" />
         </picture>
       </div>
@@ -147,7 +147,7 @@ $APPLICATION->SetTitle("Торговые марки");
     ><a class="mark-card" href="#" target="_blank">
       <div class="mark-card__img">
         <picture class="picture">
-          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/trade-mark8.webp" />
+          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark8.webp" />
           <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark8.png" />
         </picture>
       </div>
@@ -155,7 +155,7 @@ $APPLICATION->SetTitle("Торговые марки");
     ><a class="mark-card" href="#" target="_blank">
       <div class="mark-card__img">
         <picture class="picture">
-          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/trade-mark9.webp" />
+          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark9.webp" />
           <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark9.png" />
         </picture>
       </div>
@@ -165,7 +165,7 @@ $APPLICATION->SetTitle("Торговые марки");
     ><a class="mark-card" href="#" target="_blank">
       <div class="mark-card__img">
         <picture class="picture">
-          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/trade-mark10.webp" />
+          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark10.webp" />
           <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark10.png" />
         </picture>
       </div>
@@ -173,7 +173,7 @@ $APPLICATION->SetTitle("Торговые марки");
     ><a class="mark-card" href="#" target="_blank">
       <div class="mark-card__img">
         <picture class="picture">
-          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/trade-mark11.webp" />
+          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark11.webp" />
           <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark11.png" />
         </picture>
       </div>
@@ -181,7 +181,7 @@ $APPLICATION->SetTitle("Торговые марки");
     ><a class="mark-card" href="#" target="_blank">
       <div class="mark-card__img">
         <picture class="picture">
-          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/trade-mark12.webp" />
+          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark12.webp" />
           <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/trade-mark12.png" />
         </picture>
       </div>

@@ -1185,8 +1185,16 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
         data-splitting
         data-effect1
       >
-        <span>сплав </span><span>традиций </span><span>и </span
-        ><span>инноваций</span>
+      <?php
+											$APPLICATION->IncludeComponent(
+											"bitrix:main.include",
+											"",
+											array(
+											"AREA_FILE_SHOW" => "file",
+											"PATH" => SITE_TEMPLATE_PATH . "/include/templ/main_page.php",
+											)
+											);
+											?>
       </h3>
       <div class="title-rombs">
         <div class="title-rombs__item">
@@ -1259,7 +1267,7 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
           сырье собственного производства, вложив свой труд и&nbsp;душу, мы
           приготовили для вас вкусные и&nbsp;полезные блюда.
         </div>
-        <a class="main-traditions__button btn-hover_parent mobile" href="#">
+        <a class="main-traditions__button btn-hover_parent mobile" href="/about_company/">
           <div class="btn-hover_circle"></div>
           <span>Больше о&nbsp;нас</span>
         </a>
@@ -1466,16 +1474,33 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
       data-splitting
       data-effect1
     >
-      <span>развитая </span><span>сбытовая </span><span>сеть </span
-      ><span>из </span><span>10 </span><span>филиалов</span>
+<?php 
+$APPLICATION->IncludeComponent(
+"bitrix:main.include",
+"",
+array(
+"AREA_FILE_SHOW" => "file",
+"PATH" => SITE_TEMPLATE_PATH . "/include/templ/main_page1.php",
+)
+);
+?>
+    
     </h2>
     <div class="main-filials__landscape-content">
       <div class="main-filials__landscape-text">
-        Мы занимаем лидирующие позиции в&nbsp;ЮФО по&nbsp;производству
-        и&nbsp;поставкам мороженого и&nbsp;замороженных полуфабрикатов.
+      <?php 
+$APPLICATION->IncludeComponent(
+"bitrix:main.include",
+"",
+array(
+"AREA_FILE_SHOW" => "file",
+"PATH" => SITE_TEMPLATE_PATH . "/include/templ/main_page2.php",
+)
+);
+?>
       </div>
       <div class="main-filials__landscape-desk">Присоединяйтесь к нам!</div>
-      <a class="main-filials__landscape-button btn-hover_parent" href="#">
+      <a class="main-filials__landscape-button btn-hover_parent" href="/for_partners/">
         <div class="btn-hover_circle white"></div>
         <p>Подробнее о сотрудничестве</p>
       </a>
@@ -1774,7 +1799,7 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
       </div>
     </div>
     <div class="main-news__bot">
-      <a class="main-news__bot-button btn-hover_parent" href="#">
+      <a class="main-news__bot-button btn-hover_parent" href="/news_and_promotions/">
         <div class="btn-hover_circle"></div>
         <span>Все новости и акции</span>
       </a>
@@ -1819,7 +1844,7 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
         poster="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-production-popup-icecream.png"
         preload="none"
       >
-        <source src="<?php echo SITE_TEMPLATE_PATH ?>/./assets/videos/video-zdor-product.mp4" />
+        <source src="<?php echo SITE_TEMPLATE_PATH ?>/assets/videos/video-zdor-product.mp4" />
       </video>
     </div>
   </div>

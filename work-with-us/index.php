@@ -96,7 +96,7 @@ $APPLICATION->SetTitle("Работа у нас");
           <picture class="picture">
             <source
               type="image/webp"
-              srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/blue-romb-bg.webp"
+              srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/blue-romb-bg.webp"
             />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/blue-romb-bg.png" />
           </picture>
@@ -132,7 +132,7 @@ $APPLICATION->SetTitle("Работа у нас");
                 <picture class="picture">
                   <source
                     type="image/webp"
-                    srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/work-slider-img1.webp"
+                    srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/work-slider-img1.webp"
                   />
                   <img
                     class="picture__img"
@@ -146,7 +146,7 @@ $APPLICATION->SetTitle("Работа у нас");
                 <picture class="picture">
                   <source
                     type="image/webp"
-                    srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/work-slider-img1.webp"
+                    srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/work-slider-img1.webp"
                   />
                   <img
                     class="picture__img"
@@ -160,7 +160,7 @@ $APPLICATION->SetTitle("Работа у нас");
                 <picture class="picture">
                   <source
                     type="image/webp"
-                    srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/work-slider-img1.webp"
+                    srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/work-slider-img1.webp"
                   />
                   <img
                     class="picture__img"
@@ -174,7 +174,7 @@ $APPLICATION->SetTitle("Работа у нас");
                 <picture class="picture">
                   <source
                     type="image/webp"
-                    srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/work-slider-img1.webp"
+                    srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/work-slider-img1.webp"
                   />
                   <img
                     class="picture__img"

@@ -118,7 +118,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/tabris-card.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/tabris-card.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/tabris-card.png" />
           </picture>
         </div>
@@ -128,7 +128,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/apelsin.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/apelsin.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/apelsin.png" />
           </picture>
         </div>
@@ -138,7 +138,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/semei.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/semei.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/semei.png" />
           </picture>
         </div>
@@ -148,7 +148,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/nova.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/nova.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/nova.png" />
           </picture>
         </div>
@@ -158,7 +158,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/granat.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/granat.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/granat.png" />
           </picture>
         </div>
@@ -168,7 +168,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/kredo.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/kredo.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/kredo.png" />
           </picture>
         </div>
@@ -178,7 +178,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/adig.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/adig.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/adig.png" />
           </picture>
         </div>
@@ -188,7 +188,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/hadiz.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/hadiz.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/hadiz.png" />
           </picture>
         </div>
@@ -198,7 +198,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/krop.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/krop.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/krop.png" />
           </picture>
         </div>
@@ -208,7 +208,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/est.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/est.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/est.png" />
           </picture>
         </div>
@@ -218,7 +218,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/gurman.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/gurman.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/gurman.png" />
           </picture>
         </div>
@@ -228,7 +228,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/mandarin.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/mandarin.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/mandarin.png" />
           </picture>
         </div>
@@ -238,7 +238,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/hmel.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/hmel.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/hmel.png" />
           </picture>
         </div>
@@ -248,7 +248,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/alko.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/alko.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/alko.png" />
           </picture>
         </div>
@@ -258,7 +258,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/niva.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/niva.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/niva.png" />
           </picture>
         </div>
@@ -268,7 +268,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/boforta.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/boforta.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/boforta.png" />
           </picture>
         </div>
@@ -278,7 +278,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/bayazet.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/bayazet.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/bayazet.png" />
           </picture>
         </div>
@@ -288,7 +288,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/kred.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/kred.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/kred.png" />
           </picture>
         </div>
@@ -298,7 +298,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/econom.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/econom.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/econom.png" />
           </picture>
         </div>
@@ -308,7 +308,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/lavina.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/lavina.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/lavina.png" />
           </picture>
         </div>
@@ -318,7 +318,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/ocean.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/ocean.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/ocean.png" />
           </picture>
         </div>
@@ -328,7 +328,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/ochakovo.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/ochakovo.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/ochakovo.png" />
           </picture>
         </div>
@@ -338,7 +338,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/pivnaya.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/pivnaya.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/pivnaya.png" />
           </picture>
         </div>
@@ -348,7 +348,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/kurgan.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/kurgan.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/kurgan.png" />
           </picture>
         </div>
@@ -360,7 +360,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/armavir.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/armavir.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/armavir.png" />
           </picture>
         </div>
@@ -372,7 +372,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/vkus.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/vkus.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/vkus.png" />
           </picture>
         </div>
@@ -382,7 +382,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/moya.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/moya.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/moya.png" />
           </picture>
         </div>
@@ -392,7 +392,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/vashe.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/vashe.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/vashe.png" />
           </picture>
         </div>
@@ -402,7 +402,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/caloria.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/caloria.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/caloria.png" />
           </picture>
         </div>
@@ -412,7 +412,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/kanevska.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/kanevska.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/kanevska.png" />
           </picture>
         </div>
@@ -424,7 +424,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/vega.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/vega.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/vega.png" />
           </picture>
         </div>
@@ -437,7 +437,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/zakroma.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/zakroma.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/zakroma.png" />
           </picture>
         </div>
@@ -447,7 +447,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/none.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/none.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/none.png" />
           </picture>
         </div>
@@ -457,7 +457,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/gastronom.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/gastronom.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/gastronom.png" />
           </picture>
         </div>
@@ -467,7 +467,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/none.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/none.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/none.png" />
           </picture>
         </div>
@@ -477,7 +477,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/smart.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/smart.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/smart.png" />
           </picture>
         </div>
@@ -490,7 +490,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/gallery.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/gallery.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/gallery.png" />
           </picture>
         </div>
@@ -500,7 +500,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/skiper.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/skiper.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/skiper.png" />
           </picture>
         </div>
@@ -510,7 +510,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/buharest.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/buharest.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/buharest.png" />
           </picture>
         </div>
@@ -520,7 +520,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/rak.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/rak.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/rak.png" />
           </picture>
         </div>
@@ -530,7 +530,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/apex.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/apex.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/apex.png" />
           </picture>
         </div>
@@ -543,7 +543,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/zakroma.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/zakroma.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/zakroma.png" />
           </picture>
         </div>
@@ -553,7 +553,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/none.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/none.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/none.png" />
           </picture>
         </div>
@@ -563,7 +563,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/gastronom.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/gastronom.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/gastronom.png" />
           </picture>
         </div>
@@ -573,7 +573,7 @@ $APPLICATION->SetTitle("Где купить");
       <div class="where-buy__card-rect">
         <div class="where-buy__card-img">
           <picture class="picture">
-            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/none.webp" />
+            <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/none.webp" />
             <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/none.png" />
           </picture>
         </div>

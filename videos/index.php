@@ -93,7 +93,7 @@ $APPLICATION->SetTitle("Видео");
     <div class="videos-content" data-aos="fade-up">
       <div class="videos-content__item" data-aos="fade-up">
         <iframe
-          src="<?php echo SITE_TEMPLATE_PATH ?>/https://www.youtube.com/embed/puTcrXbuzO8?si=bvbyXDBDgPt9cPS7"
+          src="https://www.youtube.com/embed/puTcrXbuzO8?si=bvbyXDBDgPt9cPS7"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -103,7 +103,7 @@ $APPLICATION->SetTitle("Видео");
       </div>
       <div class="videos-content__item" data-aos="fade-up">
         <iframe
-          src="<?php echo SITE_TEMPLATE_PATH ?>/https://www.youtube.com/embed/s8Fu3dKdPJI?si=D5g6cvfqDquodcJ5"
+          src="https://www.youtube.com/embed/s8Fu3dKdPJI?si=D5g6cvfqDquodcJ5"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -113,7 +113,7 @@ $APPLICATION->SetTitle("Видео");
       </div>
       <div class="videos-content__item" data-aos="fade-up">
         <iframe
-          src="<?php echo SITE_TEMPLATE_PATH ?>/https://www.youtube.com/embed/59pvYZCI-zw?si=6YbGB5fD6Fn5Aj2H"
+          src="https://www.youtube.com/embed/59pvYZCI-zw?si=6YbGB5fD6Fn5Aj2H"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -123,7 +123,7 @@ $APPLICATION->SetTitle("Видео");
       </div>
       <div class="videos-content__item" data-aos="fade-up">
         <iframe
-          src="<?php echo SITE_TEMPLATE_PATH ?>/https://www.youtube.com/embed/-FBNV1cWcFM?si=FOpHLtgeA8-5o3fl"
+          src="https://www.youtube.com/embed/-FBNV1cWcFM?si=FOpHLtgeA8-5o3fl"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -133,7 +133,7 @@ $APPLICATION->SetTitle("Видео");
       </div>
       <div class="videos-content__item" data-aos="fade-up">
         <iframe
-          src="<?php echo SITE_TEMPLATE_PATH ?>/https://www.youtube.com/embed/RWtsL76aZp8?si=DgTkNDmTjJ2G8jgh"
+          src="https://www.youtube.com/embed/RWtsL76aZp8?si=DgTkNDmTjJ2G8jgh"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -143,7 +143,7 @@ $APPLICATION->SetTitle("Видео");
       </div>
       <div class="videos-content__item" data-aos="fade-up">
         <iframe
-          src="<?php echo SITE_TEMPLATE_PATH ?>/https://www.youtube.com/embed/IrgrTPmrGe0?si=XwLiVJnrFmFZQkwU"
+          src="https://www.youtube.com/embed/IrgrTPmrGe0?si=XwLiVJnrFmFZQkwU"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

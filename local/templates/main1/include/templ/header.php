@@ -192,7 +192,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
     </div>
 </header>
     <main class="main">
-				<div class="banner"></div>
+				<!-- <div class="banner"></div> -->
 				<div class="header-main" data-header-menu data-overlay-on data-header-component="menu">
 					<div class="header-main__wrapper desktop">
 						<div class="header-main__inner">
