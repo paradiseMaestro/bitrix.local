@@ -2,7 +2,6 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
 ?>
-<!-- <div class="banner"></div> -->
 
 <section class="top-section top-section_main">
   <div class="main-slider container desktop-t">
@@ -1817,7 +1816,7 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
         controls="controls"
         width="100%"
         height="100%"
-        poster="./assets/images/about-production-popup-icecream.png"
+        poster="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-production-popup-icecream.png"
         preload="none"
       >
         <source src="<?php echo SITE_TEMPLATE_PATH ?>/./assets/videos/video-zdor-product.mp4" />

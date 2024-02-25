@@ -39,7 +39,7 @@ $APPLICATION->SetTitle("О компании");
     <picture class="picture">
       <source
         type="image/webp"
-        srcset="assets/images/about-production-popup-icecream.webp"
+        srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/about-production-popup-icecream.webp"
       />
       <img
         class="picture__img"
@@ -137,7 +137,7 @@ $APPLICATION->SetTitle("О компании");
     <picture class="picture">
       <source
         type="image/webp"
-        srcset="assets/images/about-production-popup-cookies.webp"
+        srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/about-production-popup-cookies.webp"
       />
       <img
         class="picture__img"
@@ -1064,7 +1064,7 @@ $APPLICATION->SetTitle("О компании");
             <picture class="picture">
               <source
                 type="image/webp"
-                srcset="assets/images/about-production-img-milk.webp"
+                srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/about-production-img-milk.webp"
               />
               <img
                 class="picture__img"
@@ -1082,7 +1082,7 @@ $APPLICATION->SetTitle("О компании");
             <picture class="picture">
               <source
                 type="image/webp"
-                srcset="assets/images/about-production-img-zavod.webp"
+                srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/about-production-img-zavod.webp"
               />
               <img
                 class="picture__img"
@@ -1103,7 +1103,7 @@ $APPLICATION->SetTitle("О компании");
               <picture class="picture">
                 <source
                   type="image/webp"
-                  srcset="assets/images/about-item-img-zavod.webp"
+                  srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/about-item-img-zavod.webp"
                 />
                 <img
                   class="picture__img"
@@ -1155,7 +1155,7 @@ $APPLICATION->SetTitle("О компании");
               <picture class="picture">
                 <source
                   type="image/webp"
-                  srcset="assets/images/about-item-img-cookies.webp"
+                  srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/about-item-img-cookies.webp"
                 />
                 <img
                   class="picture__img"
@@ -1217,7 +1217,7 @@ $APPLICATION->SetTitle("О компании");
     <div class="about-evaluate__item">
       <div class="about-evaluate__item-img">
         <picture class="picture">
-          <source type="image/webp" srcset="assets/images/about-diplom1.webp" />
+          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/about-diplom1.webp" />
           <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-diplom1.png" />
         </picture>
       </div>
@@ -1225,7 +1225,7 @@ $APPLICATION->SetTitle("О компании");
     <div class="about-evaluate__item">
       <div class="about-evaluate__item-img">
         <picture class="picture">
-          <source type="image/webp" srcset="assets/images/about-diplom2.webp" />
+          <source type="image/webp" srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/about-diplom2.webp" />
           <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-diplom2.png" />
         </picture>
       </div>
@@ -1235,7 +1235,7 @@ $APPLICATION->SetTitle("О компании");
         <picture class="picture">
           <source
             type="image/webp"
-            srcset="assets/images/about-diplom-medal1.webp"
+            srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/about-diplom-medal1.webp"
           />
           <img
             class="picture__img"
@@ -1249,7 +1249,7 @@ $APPLICATION->SetTitle("О компании");
         <picture class="picture">
           <source
             type="image/webp"
-            srcset="assets/images/about-diplom-medal2.webp"
+            srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/about-diplom-medal2.webp"
           />
           <img
             class="picture__img"
@@ -1330,7 +1330,7 @@ $APPLICATION->SetTitle("О компании");
         <picture class="picture">
           <source
             type="image/webp"
-            srcset="assets/images/about-rect-bg-blue.webp"
+            srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/about-rect-bg-blue.webp"
           />
           <img
             class="picture__img"
@@ -1387,7 +1387,7 @@ $APPLICATION->SetTitle("О компании");
               <picture class="picture">
                 <source
                   type="image/webp"
-                  srcset="assets/images/freezing-slider1.webp"
+                  srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/freezing-slider1.webp"
                 />
                 <img
                   class="picture__img"
@@ -1401,7 +1401,7 @@ $APPLICATION->SetTitle("О компании");
               <picture class="picture">
                 <source
                   type="image/webp"
-                  srcset="assets/images/freezing-slider2.webp"
+                  srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/freezing-slider2.webp"
                 />
                 <img
                   class="picture__img"
@@ -1415,7 +1415,7 @@ $APPLICATION->SetTitle("О компании");
               <picture class="picture">
                 <source
                   type="image/webp"
-                  srcset="assets/images/freezing-slider3.webp"
+                  srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/freezing-slider3.webp"
                 />
                 <img
                   class="picture__img"
@@ -1429,7 +1429,7 @@ $APPLICATION->SetTitle("О компании");
               <picture class="picture">
                 <source
                   type="image/webp"
-                  srcset="assets/images/freezing-slider4.webp"
+                  srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/freezing-slider4.webp"
                 />
                 <img
                   class="picture__img"
@@ -1443,7 +1443,7 @@ $APPLICATION->SetTitle("О компании");
               <picture class="picture">
                 <source
                   type="image/webp"
-                  srcset="assets/images/freezing-slider5.webp"
+                  srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/freezing-slider5.webp"
                 />
                 <img
                   class="picture__img"
@@ -1457,7 +1457,7 @@ $APPLICATION->SetTitle("О компании");
               <picture class="picture">
                 <source
                   type="image/webp"
-                  srcset="assets/images/freezing-slider6.webp"
+                  srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/freezing-slider6.webp"
                 />
                 <img
                   class="picture__img"
@@ -1471,7 +1471,7 @@ $APPLICATION->SetTitle("О компании");
               <picture class="picture">
                 <source
                   type="image/webp"
-                  srcset="assets/images/freezing-slider7.webp"
+                  srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/freezing-slider7.webp"
                 />
                 <img
                   class="picture__img"
@@ -1485,7 +1485,7 @@ $APPLICATION->SetTitle("О компании");
               <picture class="picture">
                 <source
                   type="image/webp"
-                  srcset="assets/images/freezing-slider8.webp"
+                  srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/freezing-slider8.webp"
                 />
                 <img
                   class="picture__img"
@@ -1499,7 +1499,7 @@ $APPLICATION->SetTitle("О компании");
               <picture class="picture">
                 <source
                   type="image/webp"
-                  srcset="assets/images/freezing-slider9.webp"
+                  srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/freezing-slider9.webp"
                 />
                 <img
                   class="picture__img"
@@ -1513,7 +1513,7 @@ $APPLICATION->SetTitle("О компании");
               <picture class="picture">
                 <source
                   type="image/webp"
-                  srcset="assets/images/freezing-slider10.webp"
+                  srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/freezing-slider10.webp"
                 />
                 <img
                   class="picture__img"
@@ -1683,7 +1683,7 @@ $APPLICATION->SetTitle("О компании");
       <picture class="picture">
         <source
           type="image/webp"
-          srcset="assets/images/social-support-box.webp"
+          srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/social-support-box.webp"
         />
         <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/social-support-box.png" />
       </picture>
@@ -1692,7 +1692,7 @@ $APPLICATION->SetTitle("О компании");
       <picture class="picture">
         <source
           type="image/webp"
-          srcset="assets/images/social-support-kids.webp"
+          srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/social-support-kids.webp"
         />
         <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/social-support-kids.png" />
       </picture>
@@ -1811,7 +1811,7 @@ $APPLICATION->SetTitle("О компании");
                 <picture class="picture">
                   <source
                     type="image/webp"
-                    srcset="assets/images/about-history-img1.webp"
+                    srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/about-history-img1.webp"
                   />
                   <img
                     class="picture__img"
@@ -1825,7 +1825,7 @@ $APPLICATION->SetTitle("О компании");
                 <picture class="picture">
                   <source
                     type="image/webp"
-                    srcset="assets/images/about-history-img2.webp"
+                    srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/about-history-img2.webp"
                   />
                   <img
                     class="picture__img"
@@ -1839,7 +1839,7 @@ $APPLICATION->SetTitle("О компании");
                 <picture class="picture">
                   <source
                     type="image/webp"
-                    srcset="assets/images/about-history-img3.webp"
+                    srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/about-history-img3.webp"
                   />
                   <img
                     class="picture__img"
@@ -1853,7 +1853,7 @@ $APPLICATION->SetTitle("О компании");
                 <picture class="picture">
                   <source
                     type="image/webp"
-                    srcset="assets/images/about-history-img4.webp"
+                    srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/about-history-img4.webp"
                   />
                   <img
                     class="picture__img"
@@ -1867,7 +1867,7 @@ $APPLICATION->SetTitle("О компании");
                 <picture class="picture">
                   <source
                     type="image/webp"
-                    srcset="assets/images/about-history-img5.webp"
+                    srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/about-history-img5.webp"
                   />
                   <img
                     class="picture__img"
@@ -1881,7 +1881,7 @@ $APPLICATION->SetTitle("О компании");
                 <picture class="picture">
                   <source
                     type="image/webp"
-                    srcset="assets/images/about-history-img6.webp"
+                    srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/about-history-img6.webp"
                   />
                   <img
                     class="picture__img"
@@ -1895,7 +1895,7 @@ $APPLICATION->SetTitle("О компании");
                 <picture class="picture">
                   <source
                     type="image/webp"
-                    srcset="assets/images/about-history-img7.webp"
+                    srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/about-history-img7.webp"
                   />
                   <img
                     class="picture__img"
@@ -2121,7 +2121,7 @@ $APPLICATION->SetTitle("О компании");
         controls="controls"
         width="100%"
         height="100%"
-        poster="./assets/images/about-production-popup-icecream.png"
+        poster="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/about-production-popup-icecream.png"
         preload="none"
       >
         <source src="<?php echo SITE_TEMPLATE_PATH ?>/./assets/videos/video-zdor-product.mp4" />

@@ -135,7 +135,7 @@ $APPLICATION->SetTitle("Новости и акции");
         <picture class="picture">
           <source
             type="image/webp"
-            srcset="assets/images/main-news-card1.webp"
+            srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/main-news-card1.webp"
           />
           <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/main-news-card1.png" />
         </picture>
@@ -196,7 +196,7 @@ $APPLICATION->SetTitle("Новости и акции");
         <picture class="picture">
           <source
             type="image/webp"
-            srcset="assets/images/main-news-card2.webp"
+            srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/main-news-card2.webp"
           />
           <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/main-news-card2.png" />
         </picture>
@@ -211,7 +211,7 @@ $APPLICATION->SetTitle("Новости и акции");
       <picture class="picture">
         <source
           type="image/webp"
-          srcset="assets/images/section-mailing-bg.webp"
+          srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/section-mailing-bg.webp"
         />
         <img class="picture__img" src="<?php echo SITE_TEMPLATE_PATH ?>/assets/images/section-mailing-bg.png" />
       </picture>
@@ -220,7 +220,7 @@ $APPLICATION->SetTitle("Новости и акции");
       <picture class="picture">
         <source
           type="image/webp"
-          srcset="assets/images/section-mailing-bg-device.webp"
+          srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/section-mailing-bg-device.webp"
         />
         <img
           class="picture__img"
@@ -232,7 +232,7 @@ $APPLICATION->SetTitle("Новости и акции");
       <picture class="picture">
         <source
           type="image/webp"
-          srcset="assets/images/section-mailing-bg-mobile.webp"
+          srcset="<?php echo SITE_TEMPLATE_PATH ?>/images/section-mailing-bg-mobile.webp"
         />
         <img
           class="picture__img"
