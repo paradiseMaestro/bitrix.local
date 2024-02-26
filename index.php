@@ -8,12 +8,14 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
     <div class="main-slider__wrapper">
       <div class="swiper main-swiper">
         <div class="swiper-wrapper">
+
+
+
           <div class="swiper-slide main-slider__slide">
-            <div
-              class="main-slider__slide-bg desktop"
-              data-swiper-parallax="1440"
-              data-bg-parallax
-            >
+            <div class="main-slider__slide-bg desktop"
+                data-swiper-parallax="1440"
+                data-bg-parallax
+                >
               <picture class="picture">
                 <source
                   type="image/webp"
@@ -25,6 +27,10 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
                 />
               </picture>
             </div>
+
+
+
+
             <div class="main-slider__slide-bg devices">
               <picture class="picture">
                 <source
@@ -39,16 +45,16 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
             </div>
             <div class="main-slider__content">
               <div
-                class="main-slider__content-icon"
-                data-swiper-parallax="-500"
-              >
+                      class="main-slider__content-icon"
+                      data-swiper-parallax="-500"
+                    >
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="100"
-                  height="70"
-                  viewbox="0 0 100 70"
-                  fill="none"
-                >
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="100"
+                    height="70"
+                    viewbox="0 0 100 70"
+                    fill="none"
+                  >
                   <path
                     fill-rule="evenodd"
                     clip-rule="evenodd"
@@ -68,6 +74,7 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
                     fill="#FFE979"
                   ></path>
                 </svg>
+
               </div>
               <div
                 class="main-slider__content-title"
@@ -96,6 +103,9 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
               </div>
             </div>
           </div>
+<!-- 
+
+
           <div class="swiper-slide main-slider__slide">
             <div
               class="main-slider__slide-bg desktop"
@@ -182,7 +192,10 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
                 </a>
               </div>
             </div>
-          </div>
+          </div>  -->
+
+
+<!-- 
           <div class="swiper-slide main-slider__slide">
             <div
               class="main-slider__slide-bg desktop"
@@ -270,7 +283,11 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
                 </a>
               </div>
             </div>
-          </div>
+          </div> -->
+
+
+<!-- 
+
           <div class="swiper-slide main-slider__slide">
             <div
               class="main-slider__slide-bg desktop"
@@ -380,6 +397,9 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
               </div>
             </div>
           </div>
+ -->
+
+<!-- 
           <div class="swiper-slide main-slider__slide">
             <div
               class="main-slider__slide-bg desktop"
@@ -486,8 +506,15 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
                 </a>
               </div>
             </div>
-          </div>
+          </div> -->
+
+
+
+
         </div>
+
+
+
         <div class="main-slider__buttons">
           <div class="slider-btn btn-hover_parent main-slider__button-left">
             <div class="white-circle">
@@ -525,9 +552,16 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
           </div>
         </div>
         <div class="main-slider__pagination"></div>
+
+
+
+
       </div>
     </div>
   </div>
+
+
+
   <div class="main-slider mobile-mob">
     <div class="main-slider__wrapper">
       <div class="swiper main-swiper-mobile">
@@ -865,6 +899,19 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
     </div>
   </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <section
   class="main-catalog container"
   data-aos="fade-up"
@@ -872,7 +919,19 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
 >
   <div class="main-catalog__top" data-aos="fade-up" data-aos-duration="1500">
     <h2 class="main-catalog__title animation-title" data-splitting data-effect1>
-      <span>каталог</span><span>продукции</span>
+
+
+
+
+      <?php
+		$APPLICATION->IncludeComponent("bitrix:main.include", "template1", Array(
+	"AREA_FILE_SHOW" => "file",	// Показывать включаемую область
+		"PATH" => SITE_TEMPLATE_PATH."/include/templ/main_page3.php",	// Путь к файлу области
+	),
+	false
+);
+											?>
+
     </h2>
     <div class="title-rombs">
       <div class="title-rombs__item">
@@ -1186,14 +1245,12 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
         data-effect1
       >
       <?php
-											$APPLICATION->IncludeComponent(
-											"bitrix:main.include",
-											"",
-											array(
-											"AREA_FILE_SHOW" => "file",
-											"PATH" => SITE_TEMPLATE_PATH . "/include/templ/main_page.php",
-											)
-											);
+					$APPLICATION->IncludeComponent("bitrix:main.include", "template1", Array(
+	"AREA_FILE_SHOW" => "file",	// Показывать включаемую область
+		"PATH" => SITE_TEMPLATE_PATH."/include/templ/main_page.php",	// Путь к файлу области
+	),
+	false
+);
 											?>
       </h3>
       <div class="title-rombs">
@@ -1475,13 +1532,11 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
       data-effect1
     >
 <?php 
-$APPLICATION->IncludeComponent(
-"bitrix:main.include",
-"",
-array(
-"AREA_FILE_SHOW" => "file",
-"PATH" => SITE_TEMPLATE_PATH . "/include/templ/main_page1.php",
-)
+$APPLICATION->IncludeComponent("bitrix:main.include", "template1", Array(
+	"AREA_FILE_SHOW" => "file",	// Показывать включаемую область
+		"PATH" => SITE_TEMPLATE_PATH."/include/templ/main_page1.php",	// Путь к файлу области
+	),
+	false
 );
 ?>
     
@@ -1491,7 +1546,7 @@ array(
       <?php 
 $APPLICATION->IncludeComponent(
 "bitrix:main.include",
-"",
+"template1",
 array(
 "AREA_FILE_SHOW" => "file",
 "PATH" => SITE_TEMPLATE_PATH . "/include/templ/main_page2.php",
@@ -1851,5 +1906,312 @@ array(
 </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?$APPLICATION->IncludeComponent(
+	"bitrix:news.list", 
+	"template1", 
+	array(
+		"COMPONENT_TEMPLATE" => "template1",
+		"IBLOCK_TYPE" => "main_slider",
+		"IBLOCK_ID" => "4",
+		"NEWS_COUNT" => "20",
+		"SORT_BY1" => "SORT",
+		"SORT_ORDER1" => "ASC",
+		"SORT_BY2" => "SORT",
+		"SORT_ORDER2" => "ASC",
+		"FILTER_NAME" => "",
+		"FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"PROPERTY_CODE" => array(
+			0 => "MAIN_IMG",
+			1 => "SVG",
+			2 => "MAIN_TEXT",
+			3 => "DESCRIPTION",
+			4 => "NAME_LINK",
+			5 => "URL",
+			6 => "",
+		),
+		"CHECK_DATES" => "Y",
+		"DETAIL_URL" => "",
+		"AJAX_MODE" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "Y",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_ADDITIONAL" => "",
+		"CACHE_TYPE" => "A",
+		"CACHE_TIME" => "36000000",
+		"CACHE_FILTER" => "N",
+		"CACHE_GROUPS" => "Y",
+		"PREVIEW_TRUNCATE_LEN" => "",
+		"ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"SET_TITLE" => "N",
+		"SET_BROWSER_TITLE" => "N",
+		"SET_META_KEYWORDS" => "N",
+		"SET_META_DESCRIPTION" => "N",
+		"SET_LAST_MODIFIED" => "N",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+		"ADD_SECTIONS_CHAIN" => "N",
+		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
+		"PARENT_SECTION" => "",
+		"PARENT_SECTION_CODE" => "",
+		"INCLUDE_SUBSECTIONS" => "N",
+		"STRICT_SECTION_CHECK" => "N",
+		"DISPLAY_DATE" => "N",
+		"DISPLAY_NAME" => "N",
+		"DISPLAY_PICTURE" => "N",
+		"DISPLAY_PREVIEW_TEXT" => "N",
+		"PAGER_TEMPLATE" => ".default",
+		"DISPLAY_TOP_PAGER" => "N",
+		"DISPLAY_BOTTOM_PAGER" => "N",
+		"PAGER_TITLE" => "Новости",
+		"PAGER_SHOW_ALWAYS" => "N",
+		"PAGER_DESC_NUMBERING" => "N",
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+		"PAGER_SHOW_ALL" => "N",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"SET_STATUS_404" => "N",
+		"SHOW_404" => "N",
+		"MESSAGE_404" => ""
+	),
+	false
+);?>
+
+
+
+
+
+
+
+
+
+
+
+
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

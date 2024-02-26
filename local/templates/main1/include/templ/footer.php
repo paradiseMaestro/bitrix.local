@@ -106,7 +106,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
                             <?php
                             $APPLICATION->IncludeComponent(
                                 "bitrix:main.include",
-                                "",
+                                "template1",
                                 array(
                                     "AREA_FILE_SHOW" => "file",
                                     "PATH" => SITE_TEMPLATE_PATH . "/include/templ/footer_componets/goodProduct.php",
@@ -142,7 +142,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
                             <?php
                             $APPLICATION->IncludeComponent(
                                 "bitrix:main.include",
-                                "",
+                                "template1",
                                 array(
                                     "AREA_FILE_SHOW" => "file",
                                     "PATH" => SITE_TEMPLATE_PATH . "/include/templ/footer_componets/privatPolicaBottom.php",
@@ -156,7 +156,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
  
                         <?$APPLICATION->IncludeComponent(
 	"bitrix:menu", 
-	"template2", 
+	"template1", 
 	array(
 		"ALLOW_MULTI_SELECT" => "N",
 		"CHILD_MENU_TYPE" => "right",
@@ -183,7 +183,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
                                 <?php
                                 $APPLICATION->IncludeComponent(
                                     "bitrix:main.include",
-                                    "",
+                                    "template1",
                                     array(
                                         "AREA_FILE_SHOW" => "file",
                                         "PATH" => SITE_TEMPLATE_PATH . "/include/templ/footer_componets/phoneGmail.php",
@@ -197,7 +197,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
                                 <?php
                                 $APPLICATION->IncludeComponent(
                                     "bitrix:main.include",
-                                    "",
+                                    "template1",
                                     array(
                                         "AREA_FILE_SHOW" => "file",
                                         "PATH" => SITE_TEMPLATE_PATH . "/include/templ/footer_componets/crateInClaudmil.php",
@@ -307,7 +307,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
                         <?php
                         $APPLICATION->IncludeComponent(
                             "bitrix:main.include",
-                            "",
+                            "template1",
                             array(
                                 "AREA_FILE_SHOW" => "file",
                                 "PATH" => SITE_TEMPLATE_PATH . "/include/templ/footer_componets/phoneGmail.php",
@@ -392,7 +392,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
                     <?php
                     $APPLICATION->IncludeComponent(
                         "bitrix:main.include",
-                        "",
+                        "template1",
                         array(
                             "AREA_FILE_SHOW" => "file",
                             "PATH" => SITE_TEMPLATE_PATH . "/include/templ/footer_componets/goodProduct.php",
@@ -404,7 +404,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
                     <?php
                     $APPLICATION->IncludeComponent(
                         "bitrix:main.include",
-                        "",
+                        "template1",
                         array(
                             "AREA_FILE_SHOW" => "file",
                             "PATH" => SITE_TEMPLATE_PATH . "/include/templ/footer_componets/privatPolicaBottom.php",

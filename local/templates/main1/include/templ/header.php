@@ -58,7 +58,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
 					<?php
 											$APPLICATION->IncludeComponent(
 											"bitrix:main.include",
-											"",
+											"template1",
 											array(
 											"AREA_FILE_SHOW" => "file",
 											"PATH" => SITE_TEMPLATE_PATH . "/include/templ/header_componets/iconSearch.php",
@@ -162,7 +162,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
 									<?php
 									$APPLICATION->IncludeComponent(
 									"bitrix:main.include",
-									"",
+									"template1",
 									Array(
 									"AREA_FILE_SHOW" => "file", 
 									"PATH" => SITE_TEMPLATE_PATH . "/include/templ/header_componets/svgNumber.php",
@@ -174,7 +174,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
 									<?php
 									$APPLICATION->IncludeComponent(
 									"bitrix:main.include",
-									"",
+									"template1",
 									Array(
 									"AREA_FILE_SHOW" => "file", 
 									"PATH" => SITE_TEMPLATE_PATH . "/include/templ/header_componets/messageUs.php",
@@ -321,7 +321,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
 									<?php
 											$APPLICATION->IncludeComponent(
 											"bitrix:main.include",
-											"",
+											"template1",
 											array(
 											"AREA_FILE_SHOW" => "file",
 											"PATH" => SITE_TEMPLATE_PATH . "/include/templ/header_componets/phoneGmail.php",
@@ -335,7 +335,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
 											<?php
 											$APPLICATION->IncludeComponent(
 											"bitrix:main.include",
-											"",
+											"template1",
 											array(
 											"AREA_FILE_SHOW" => "file",
 											"PATH" => SITE_TEMPLATE_PATH . "/include/templ/header_componets/privatPolicaTop.php",
@@ -348,7 +348,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
 												<?php
 												$APPLICATION->IncludeComponent(
 												"bitrix:main.include",
-												"",
+												"template1",
 												array(
 												"AREA_FILE_SHOW" => "file",
 												"PATH" => SITE_TEMPLATE_PATH . "/include/templ/header_componets/goodProduct.php",
@@ -360,7 +360,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
 													<?php
 													$APPLICATION->IncludeComponent(
 													"bitrix:main.include",
-													"",
+													"template1",
 													array(
 													"AREA_FILE_SHOW" => "file",
 													"PATH" => SITE_TEMPLATE_PATH . "/include/templ/header_componets/crateInClaudmil.php",
@@ -392,7 +392,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
 											<?php
 											$APPLICATION->IncludeComponent(
 											"bitrix:main.include",
-											"",
+											"template1",
 											array(
 											"AREA_FILE_SHOW" => "file",
 											"PATH" => SITE_TEMPLATE_PATH . "/include/templ/header_componets/phoneGmail.php",
@@ -460,7 +460,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
 									<?php
 										$APPLICATION->IncludeComponent(
 										"bitrix:main.include",
-										"",
+										"template1",
 										array(
 										"AREA_FILE_SHOW" => "file",
 										"PATH" => SITE_TEMPLATE_PATH . "/include/templ/header_componets/privatPolicaTop.php",
@@ -471,7 +471,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
 									<?php
 										$APPLICATION->IncludeComponent(
 										"bitrix:main.include",
-										"",
+										"template1",
 										array(
 										"AREA_FILE_SHOW" => "file",
 										"PATH" => SITE_TEMPLATE_PATH . "/include/templ/header_componets/goodProduct.php",
@@ -483,7 +483,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die;
 									<?php
 										$APPLICATION->IncludeComponent(
 										"bitrix:main.include",
-										"",
+										"template1",
 										array(
 										"AREA_FILE_SHOW" => "file",
 										"PATH" => SITE_TEMPLATE_PATH . "/include/templ/header_componets/crateInClaudmil.php",
