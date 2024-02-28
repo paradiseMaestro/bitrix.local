@@ -1129,11 +1129,16 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
     </a>
   </div>
 </section>
+
+
+
+
+
 <section
-  class="main-traditions container-fluid"
-  data-aos="fade-up"
-  data-aos-duration="1500"
->
+            class="main-traditions container-fluid"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
   <div class="main-traditions__bg">
     <svg
       width="1920"
@@ -1162,12 +1167,12 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
   <div class="container" data-aos="fade-up" data-aos-duration="1500">
     <div class="main-traditions__logo">
       <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="143"
-        height="75"
-        viewbox="0 0 143 75"
-        fill="none"
-      >
+              xmlns="http://www.w3.org/2000/svg"
+              width="143"
+              height="75"
+              viewbox="0 0 143 75"
+              fill="none"
+            >
         <path
           d="M0 11.3017L4.19833 10.6986C4.26064 11.2899 4.4943 11.7599 4.89154 12.1084C5.28879 12.4569 5.81844 12.6331 6.46883 12.6331C6.99459 12.6331 7.43468 12.4961 7.79298 12.222C8.15128 11.9478 8.33043 11.5876 8.33043 11.1411C8.33043 10.6947 8.12401 10.3383 7.71509 10.0642C7.30616 9.7901 6.78429 9.65305 6.15337 9.65305H5.207V6.28916H6.15337C7.37236 6.28916 7.98381 5.80358 7.98381 4.82848C7.98381 4.44863 7.83193 4.14319 7.52426 3.90822C7.22048 3.67718 6.81545 3.55969 6.30916 3.55969C5.84571 3.55969 5.4368 3.69675 5.0785 3.97087C4.7202 4.24499 4.49821 4.62484 4.41642 5.11435L0.630914 4.06485C1.00868 2.79605 1.68635 1.80138 2.66778 1.08083C3.64531 0.360279 4.90324 0 6.43769 0C8.1435 0 9.51047 0.379873 10.5386 1.1435C11.5707 1.90321 12.0848 2.89005 12.0848 4.09619C12.0848 5.61952 11.4227 6.81393 10.0946 7.68329C10.9164 8.02007 11.5824 8.51741 12.1003 9.1753C12.6144 9.82928 12.8754 10.5929 12.8754 11.4583C12.8754 13.0678 12.2912 14.3092 11.1228 15.1864C9.95445 16.0636 8.40442 16.5022 6.46883 16.5022C4.59555 16.5022 3.08836 16.0245 1.93947 15.0729C0.790584 14.1252 0.144098 12.8681 0 11.3017Z"
           fill="#F64653"
@@ -1240,18 +1245,18 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
     </div>
     <div class="main-traditions__top">
       <h3
-        class="main-traditions__title animation-title"
-        data-splitting
-        data-effect1
-      >
-      <?php
-					$APPLICATION->IncludeComponent("bitrix:main.include", "template1", Array(
-	"AREA_FILE_SHOW" => "file",	// Показывать включаемую область
-		"PATH" => SITE_TEMPLATE_PATH."/include/templ/main_page.php",	// Путь к файлу области
-	),
-	false
-);
-											?>
+            class="main-traditions__title animation-title"
+            data-splitting
+            data-effect1
+          >
+                <?php
+                $APPLICATION->IncludeComponent("bitrix:main.include", "template1", Array(
+                "AREA_FILE_SHOW" => "file",	// Показывать включаемую область
+                "PATH" => SITE_TEMPLATE_PATH."/include/templ/main_page.php",	// Путь к файлу области
+                ),
+                false
+                );
+                ?>
       </h3>
       <div class="title-rombs">
         <div class="title-rombs__item">
@@ -1311,7 +1316,13 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
     <div class="main-traditions__row">
       <div class="main-traditions__col">
         <div class="main-traditions__text">
-          Производим и дистрибуцируем продукцию с&nbsp;1996&nbsp;года.
+            <?php
+            $APPLICATION->IncludeComponent("bitrix:main.include", "template1", Array(
+            "AREA_FILE_SHOW" => "file",	// Показывать включаемую область
+            "PATH" => SITE_TEMPLATE_PATH."/include/templ/main_page4.php",	// Путь к файлу области
+            ),
+            false
+            );?>
         </div>
         <a class="main-traditions__button btn-hover_parent desktop" href="#">
           <div class="btn-hover_circle"></div>
@@ -1320,13 +1331,26 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
       </div>
       <div class="main-traditions__col">
         <div class="main-traditions__text">
-          Соединив самое лучшее из&nbsp;прошлого и&nbsp;настоящего, добавив
-          сырье собственного производства, вложив свой труд и&nbsp;душу, мы
-          приготовили для вас вкусные и&nbsp;полезные блюда.
+            <?php
+            $APPLICATION->IncludeComponent("bitrix:main.include", "template1", Array(
+            "AREA_FILE_SHOW" => "file",	// Показывать включаемую область
+            "PATH" => SITE_TEMPLATE_PATH."/include/templ/main_page5.php",	// Путь к файлу области
+            ),
+            false
+            );?>
         </div>
         <a class="main-traditions__button btn-hover_parent mobile" href="/about_company/">
           <div class="btn-hover_circle"></div>
-          <span>Больше о&nbsp;нас</span>
+          <span>
+            Больше о&nbsp;нас
+            <?php
+            $APPLICATION->IncludeComponent("bitrix:main.include", "template1", Array(
+            "AREA_FILE_SHOW" => "file",	// Показывать включаемую область
+            "PATH" => SITE_TEMPLATE_PATH."/include/templ/main_page6.php",	// Путь к файлу области
+            ),
+            false
+            );?>
+          </span>
         </a>
       </div>
     </div>
@@ -1430,6 +1454,22 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
     </div>
   </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <section
   class="main-filials container"
   data-aos="fade-up"
@@ -2128,79 +2168,29 @@ array(
 
 
 
-
-
-
-
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list", 
-	"template1", 
-	array(
-		"COMPONENT_TEMPLATE" => "template1",
-		"IBLOCK_TYPE" => "main_slider",
-		"IBLOCK_ID" => "4",
-		"NEWS_COUNT" => "20",
-		"SORT_BY1" => "SORT",
-		"SORT_ORDER1" => "ASC",
-		"SORT_BY2" => "SORT",
-		"SORT_ORDER2" => "ASC",
-		"FILTER_NAME" => "",
-		"FIELD_CODE" => array(
-			0 => "",
-			1 => "",
-		),
-		"PROPERTY_CODE" => array(
-			0 => "MAIN_IMG",
-			1 => "SVG",
-			2 => "MAIN_TEXT",
-			3 => "DESCRIPTION",
-			4 => "NAME_LINK",
-			5 => "URL",
-			6 => "",
-		),
-		"CHECK_DATES" => "Y",
-		"DETAIL_URL" => "",
-		"AJAX_MODE" => "N",
-		"AJAX_OPTION_JUMP" => "N",
-		"AJAX_OPTION_STYLE" => "Y",
-		"AJAX_OPTION_HISTORY" => "N",
-		"AJAX_OPTION_ADDITIONAL" => "",
-		"CACHE_TYPE" => "A",
-		"CACHE_TIME" => "36000000",
-		"CACHE_FILTER" => "N",
-		"CACHE_GROUPS" => "Y",
-		"PREVIEW_TRUNCATE_LEN" => "",
+	"bitrix:news.index",
+	"",
+	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
-		"SET_TITLE" => "N",
-		"SET_BROWSER_TITLE" => "N",
-		"SET_META_KEYWORDS" => "N",
-		"SET_META_DESCRIPTION" => "N",
-		"SET_LAST_MODIFIED" => "N",
-		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
-		"ADD_SECTIONS_CHAIN" => "N",
-		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"PARENT_SECTION" => "",
-		"PARENT_SECTION_CODE" => "",
-		"INCLUDE_SUBSECTIONS" => "N",
-		"STRICT_SECTION_CHECK" => "N",
-		"DISPLAY_DATE" => "N",
-		"DISPLAY_NAME" => "N",
-		"DISPLAY_PICTURE" => "N",
-		"DISPLAY_PREVIEW_TEXT" => "N",
-		"PAGER_TEMPLATE" => ".default",
-		"DISPLAY_TOP_PAGER" => "N",
-		"DISPLAY_BOTTOM_PAGER" => "N",
-		"PAGER_TITLE" => "Новости",
-		"PAGER_SHOW_ALWAYS" => "N",
-		"PAGER_DESC_NUMBERING" => "N",
-		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
-		"PAGER_SHOW_ALL" => "N",
-		"PAGER_BASE_LINK_ENABLE" => "N",
-		"SET_STATUS_404" => "N",
-		"SHOW_404" => "N",
-		"MESSAGE_404" => ""
-	),
-	false
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "36000000",
+		"CACHE_TYPE" => "A",
+		"DETAIL_URL" => "",
+		"FIELD_CODE" => array("",""),
+		"FILTER_NAME" => "arrFilter",
+		"IBLOCKS" => array("4"),
+		"IBLOCK_SORT_BY" => "SORT",
+		"IBLOCK_SORT_ORDER" => "ASC",
+		"IBLOCK_TYPE" => "main_slider",
+		"IBLOCK_URL" => "",
+		"NEWS_COUNT" => "5",
+		"PROPERTY_CODE" => array("",""),
+		"SORT_BY1" => "ACTIVE_FROM",
+		"SORT_BY2" => "SORT",
+		"SORT_ORDER1" => "DESC",
+		"SORT_ORDER2" => "ASC"
+	)
 );?>
 
 
