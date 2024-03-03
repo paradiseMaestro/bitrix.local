@@ -55,9 +55,6 @@ $getiblock = CIBlockSection::GetList(
 
 		  }
 	}
-	// Выставки - Никто рассказал, как выбрать правильное мороженое 1
-	 $arElementGroups[] = $arSec;
-	 
  }
 
 ?>

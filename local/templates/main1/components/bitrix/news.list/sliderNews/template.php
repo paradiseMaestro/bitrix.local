@@ -11,6 +11,41 @@
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
+
+
+$getiblock = CIBlockSection::GetList(
+	Array("SORT"=>"ASC"),
+	Array("IBLOCK_ID"=>$arParams['IBLOCK_ID'])
+ );
+
+ 
+  
+ while($sectionwhile = $getiblock->GetNext())
+{
+	$arS[] = $sectionwhile;
+}
+  
+ foreach($arS as $key1=>$arSec){  
+	// print_r($arS);
+	// print_r($arSec);
+	 
+	 foreach($arResult["ITEMS"] as $key2=>$arItem){
+	// print_r($arItem);
+		 
+		  if($arItem['IBLOCK_SECTION_ID'] == $arSec['ID']){
+			// $arResult['ITEMS'] =  $arItem;
+			$arResult['ITEMS'][$key2]['DETAIL_LIST'] =  $arSec;
+			
+			
+
+		  }
+	}
+ }
+
+
+
+
+
 ?>
 
 
