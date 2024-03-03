@@ -25,7 +25,7 @@ $this->setFrameMode(true);
 
 
 
-<a href="?catalog=all">DDDDDDDDDDDDDD</a>
+<!-- <a href="?catalog=all">DDDDDDDDDDDDDD</a> -->
 
 <section class="top-section">
 	<section class="news-content container">

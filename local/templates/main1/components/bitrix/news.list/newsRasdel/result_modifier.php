@@ -1,5 +1,5 @@
 <?php
-
+// LIST_PAGE_URL
 
 
 $getiblock = CIBlockSection::GetList(
@@ -52,7 +52,11 @@ if($_GET['catalog'] != 'all'){
     $arResult['ITEMS'] = $Items;
 }
 
-// echo '</pre>';
+echo '<pre>';
+print_r($arResult);
+
+// arResult
+echo '</pre>';
 // print_r($_GET['catalog']);
 
 
