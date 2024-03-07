@@ -1,9 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Новости");
-?>
-<?
-$APPLICATION->IncludeComponent(
+?><?$APPLICATION->IncludeComponent(
 	"bitrix:news.list", 
 	"newsRasdel", 
 	array(
@@ -19,7 +17,8 @@ $APPLICATION->IncludeComponent(
 		"CACHE_TIME" => "36000000",
 		"CACHE_TYPE" => "A",
 		"CHECK_DATES" => "Y",
-		"DETAIL_URL" => "#ID#",
+		"COMPONENT_TEMPLATE" => "newsRasdel",
+		"DETAIL_URL" => "/news/#SECTION_CODE#/#ELEMENT_CODE#/",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
 		"DISPLAY_DATE" => "Y",
 		"DISPLAY_NAME" => "Y",
@@ -46,7 +45,7 @@ $APPLICATION->IncludeComponent(
 		"PAGER_TEMPLATE" => ".default",
 		"PAGER_TITLE" => "Новости",
 		"PARENT_SECTION" => "",
-		"PARENT_SECTION_CODE" => "",
+		"PARENT_SECTION_CODE" => $_REQUEST["SECTION_CODE"],
 		"PREVIEW_TRUNCATE_LEN" => "",
 		"PROPERTY_CODE" => array(
 			0 => "",
@@ -63,16 +62,18 @@ $APPLICATION->IncludeComponent(
 		"SORT_BY2" => "SORT",
 		"SORT_ORDER1" => "DESC",
 		"SORT_ORDER2" => "ASC",
-		"STRICT_SECTION_CHECK" => "N",
-		"COMPONENT_TEMPLATE" => "newsRasdel"
+		"STRICT_SECTION_CHECK" => "N"
 	),
 	false
-);
-?>
-
-<?php require($_SERVER['DOCUMENT_ROOT']. SITE_TEMPLATE_PATH. "/pages/news.php"); ?>
-
-
+);?> 
+<?php require($_SERVER['DOCUMENT_ROOT']. SITE_TEMPLATE_PATH. "/pages/news.php"); ?> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <?php
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");
 ?>

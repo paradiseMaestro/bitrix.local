@@ -12,6 +12,8 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 $i = 0;
+
+
 foreach($arResult['SECTIONS'] as $cell => $arElement)
 {
 
