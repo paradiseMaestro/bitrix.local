@@ -3,7 +3,6 @@
 
 // global $sectionInfo ;
 
-print_r($_REQUEST);
 
 $sectionInfo = [];
 

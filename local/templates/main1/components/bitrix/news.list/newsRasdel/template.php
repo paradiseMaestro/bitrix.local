@@ -13,7 +13,39 @@
 $this->setFrameMode(true);
 
 
-
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '</br>';
+// echo '<pre>';
+// print_r($arResult['ITEMS']);
+// echo '</pre>';
 
 ?>
 
