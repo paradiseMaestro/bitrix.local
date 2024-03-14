@@ -1,26 +1,12 @@
 <?php
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetTitle("Главная");
-// $APPLICATION->SetTitle("Название_в_хлебных_крошках");
+$APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
 
 
-echo '</br>';
-echo '</br>';
-echo '</br>';
-echo '</br>';
-echo '</br>';
-echo '<a href="/catalog/">      КАТАЛОГ    </a>';
-echo '</br>';
-echo '</br>';
-echo '</br>';
-echo '</br>';
-echo '</br>';
-echo '<a href="/catalog/">      МОРОЖЕННОЕ    </a>';
+
 ?>
 
 <?php require($_SERVER['DOCUMENT_ROOT']. SITE_TEMPLATE_PATH. "/pages/main.php"); ?>
-
-
 
 <?$APPLICATION->IncludeComponent(
 	"bitrix:breadcrumb", 
@@ -33,4 +19,5 @@ echo '<a href="/catalog/">      МОРОЖЕННОЕ    </a>';
 	),
 	false
 );?>
+
 <?php require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

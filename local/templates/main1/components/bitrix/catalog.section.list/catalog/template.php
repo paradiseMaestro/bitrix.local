@@ -12,7 +12,7 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 echo '<pre>';
-print_r($_REQUEST);
+// print_r($arResult);
 echo '</pre>';
 $arViewModeList = $arResult['VIEW_MODE_LIST'];
 

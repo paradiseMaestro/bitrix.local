@@ -2,8 +2,6 @@
 // LIST_PAGE_URL
 
 // global $sectionInfo ;
-
-
 $sectionInfo = [];
 
 $filter = [];

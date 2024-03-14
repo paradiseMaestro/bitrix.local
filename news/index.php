@@ -1,8 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Новости");
-?>
-<?$APPLICATION->IncludeComponent(
+?><?$APPLICATION->IncludeComponent(
 	"bitrix:news.list", 
 	"newsRasdel", 
 	array(
@@ -52,12 +51,12 @@ $APPLICATION->SetTitle("Новости");
 			0 => "",
 			1 => "",
 		),
-		"SET_BROWSER_TITLE" => "N",
+		"SET_BROWSER_TITLE" => "Y",
 		"SET_LAST_MODIFIED" => "N",
 		"SET_META_DESCRIPTION" => "Y",
 		"SET_META_KEYWORDS" => "Y",
 		"SET_STATUS_404" => "N",
-		"SET_TITLE" => "N",
+		"SET_TITLE" => "Y",
 		"SHOW_404" => "N",
 		"SORT_BY1" => "ACTIVE_FROM",
 		"SORT_BY2" => "SORT",
@@ -67,15 +66,14 @@ $APPLICATION->SetTitle("Новости");
 	),
 	false
 );?> 
-<?php require($_SERVER['DOCUMENT_ROOT']. SITE_TEMPLATE_PATH. "/pages/news.php"); ?> <br>
- <br>
- <br>
- <br>
-
-
-
+<?php require($_SERVER['DOCUMENT_ROOT']. SITE_TEMPLATE_PATH. "/pages/news.php"); ?> 
 <br>
- <br>
- <br><?php
-// require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<?php
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");
 ?>
