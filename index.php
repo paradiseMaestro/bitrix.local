@@ -4,20 +4,23 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
 
 
 
-?>
-
-<?php require($_SERVER['DOCUMENT_ROOT']. SITE_TEMPLATE_PATH. "/pages/main.php"); ?>
-
-<?$APPLICATION->IncludeComponent(
-	"bitrix:breadcrumb", 
-	"breadcrumbNews", 
-	array(
+?><?php require($_SERVER['DOCUMENT_ROOT']. SITE_TEMPLATE_PATH. "/pages/main.php"); ?> <?$APPLICATION->IncludeComponent(
+	"bitrix:breadcrumb",
+	"breadcrumbNews",
+	Array(
 		"COMPONENT_TEMPLATE" => "breadcrumbNews",
-		"START_FROM" => "0",
 		"PATH" => "",
-		"SITE_ID" => "s1"
-	),
-	false
-);?>
+		"SITE_ID" => "s1",
+		"START_FROM" => "0"
+	)
+);?> <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+
+
 
 <?php require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
