@@ -6,11 +6,60 @@ $APPLICATION->SetTitle("Каталог");
 //     print_r($arr);
 //     echo '</pre>';
 // }
-$i = 0;
+$i = 1;
 // pr($GLOBALS);
+// получаем получившийся юрл
+// print_r($APPLICATION->GetCurDir());
+
+
+
+
+// если какойто элемент равен пустой строчке - не берем в новый массив
+$urlArr = array_filter(
+	// делим все по слешу в массив
+	explode('/', $APPLICATION->GetCurDir()),
+	function ($item) {
+    	return $item != '';
+	}
+);
+
+print_r($urlArr);
+
+
+$whichPage = NULL;
+
+
+// если полсе каталога ничего нет
+if (!isset($urlArr[2])) {
+    // print_r('0000000000');
+	$whichPage = 1;
+}
+
+// если есть католог раздела, но не передана детальная страница
+if (isset($urlArr[2]) && !isset($urlArr[3])) {
+    // print_r('1111111111');
+	$whichPage = 2;
+}
+
+// передана детальная страница 
+if (isset($urlArr[3])) {
+    // print_r('2222222222222');
+	$whichPage = 3;
+}
+
+
+
+
+
+
+
+
+
+
+
 ?>
 
-<?if($i):?>
+<?if( $whichPage == 1):?>
 <?php 
 
 	$APPLICATION->IncludeComponent(
@@ -53,30 +102,13 @@ $i = 0;
 		),
 		false
 	); 
-?> 
-<?else:?>
+?>
+<?endif;?>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<?if( $whichPage == 2):?>
 <?php
 
 
@@ -119,7 +151,7 @@ $i = 0;
 		"PAGER_SHOW_ALWAYS" => "N",	// Выводить всегда
 		"PAGER_TEMPLATE" => ".default",	// Шаблон постраничной навигации
 		"PAGER_TITLE" => "Новости",	// Название категорий
-		"PARENT_SECTION" => "",	// ID раздела
+		"PARENT_SECTION" => $_REQUEST["SECTION_CODE"],	// ID раздела
 		"PARENT_SECTION_CODE" => "",	// Код раздела
 		"PREVIEW_TRUNCATE_LEN" => "",	// Максимальная длина анонса для вывода (только для типа текст)
 		"PROPERTY_CODE" => array(	// Свойства
@@ -148,19 +180,15 @@ $i = 0;
 );
 
 ?>
+<?endif?>
 
 
+<?if( $whichPage == 3):?>
 
-
-
-
-
-
-
-
-
-
-
+<h1>aboba</h1>
 
 <?endif?>
+
+
+
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
