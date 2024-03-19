@@ -1,28 +1,18 @@
 <?php 
 
-
-$sectionInfo = [];
-
-$filter = [];
-$filter['IBLOCK_ID'] =  (int)$arResult['ID'];
-$filter['GLOBAL_ACTIVE'] =  'Y';
-$filter['SECTION_ID'] =  (int)$arResult['SECTION']['PATH'][0]['ID'];
-$filter['DEPTH_LEVEL'] =  2;
-
-$getiblock = CIBlockSection::GetList(
-    ['SORT' => 'ASC'],
-    $filter
-);
-$arResult['SECTIONS'][] = $arResult['SECTION']['PATH'][0];
-$arResult['SECTIONS'][0]['NAME'] = 'Все';
-while ($sectionwhile = $getiblock->GetNext()) {
-    $arResult['SECTIONS'][] = $sectionwhile;
-//     $sectionInfo[$sectionwhile['ID']] = $sectionwhile['NAME'];
+$res = CIBlockElement::GetByID((int)$arResult['PROPERTIES']['brend']['VALUE']);
+if($ar_res = $res->GetNext()){
+	$arResult['PROPERTIES']['brend']['name_brend']= $ar_res['NAME'];
 }
 
+foreach ($arResult['PROPERTIES']['gallery']['VALUE'] as $item) {
 
-
-// $arResult["SECTION_NAMES"] = $sectionInfo;
+    $arResult['PROPERTIES']['gallery']['src_images'][] = CFile::ResizeImageGet(
+        $item,
+        ['height' => 1200, 'weight' => 1200],
+        BX_RESIZE_IMAGE_EXACT,
+    );
+}
 
 
 echo '</br>';
@@ -66,7 +56,8 @@ echo '<pre>';
 // print_r($getiblock->GetNext());
 // print_r($getiblock->GetNext());
 // print_r($arResult);
-// print_r($arResult['SECTIONS']);
 echo '</pre>';
+
+
 
 ?>

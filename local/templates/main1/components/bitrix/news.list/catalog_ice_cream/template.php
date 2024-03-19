@@ -34,33 +34,17 @@ $this->setFrameMode(true);
 
 
 <section class="catalog-hero top-section container">
-    <div class="catalog-hero__breadcrumbs">
-        <div class="breadcrumbs">
-            <div class="breadcrumbs-wrapper">
-                <div class="breadcrumbs-wrapper__row"><a class="breadcrumbs__item" href="#">главная</a>
-                    <div class="breadcrumbs__arrow"><svg width="9" height="14" viewbox="0 0 9 14" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M0.501732 0.71693C0.688798 2.76241 1.82258 7.06302 8.00226 7.42407C8.43495 7.44882 8.66756 6.9815 8.3585 6.70488L1.3053 0.390819C0.992979 0.109838 0.465946 0.325304 0.501732 0.71693Z"
-                                fill="#F64653"></path>
-                            <path
-                                d="M0.501732 13.2839C0.688798 11.2384 1.82258 6.9378 8.00226 6.57675C8.43495 6.552 8.66756 7.01934 8.3585 7.29595L1.3053 13.61C0.992979 13.8895 0.465946 13.6755 0.501732 13.2839Z"
-                                fill="#F64653"></path>
-                        </svg></div><a class="breadcrumbs__item" href="#">каталог</a>
-                    <div class="breadcrumbs__arrow"><svg width="9" height="14" viewbox="0 0 9 14" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M0.501732 0.71693C0.688798 2.76241 1.82258 7.06302 8.00226 7.42407C8.43495 7.44882 8.66756 6.9815 8.3585 6.70488L1.3053 0.390819C0.992979 0.109838 0.465946 0.325304 0.501732 0.71693Z"
-                                fill="#F64653"></path>
-                            <path
-                                d="M0.501732 13.2839C0.688798 11.2384 1.82258 6.9378 8.00226 6.57675C8.43495 6.552 8.66756 7.01934 8.3585 7.29595L1.3053 13.61C0.992979 13.8895 0.465946 13.6755 0.501732 13.2839Z"
-                                fill="#F64653"></path>
-                        </svg></div>
-                    <div class="breadcrumbs__current active">мороженое</div>
-                </div>
-            </div>
-        </div>
-    </div>
+<?$APPLICATION->IncludeComponent(
+	"bitrix:breadcrumb", 
+	"breadcrumbNews", 
+	array(
+		"PATH" => "",
+		"SITE_ID" => "s1",
+		"START_FROM" => "0",
+		"COMPONENT_TEMPLATE" => "breadcrumbNews"
+	),
+	false
+);?>
 
 
     <div class="catalog-hero__top">
@@ -102,42 +86,20 @@ $this->setFrameMode(true);
 
 
     <div class="catalog-hero__thumbs">
-        <div class="catalog-hero__thumbs-item btn-hover_parent active">
-            <div class="btn-hover_circle"></div><span>Все</span>
-        </div>
-        <div class="catalog-hero__thumbs-item btn-hover_parent">
-            <div class="btn-hover_circle"></div><span>Вафельный стаканчик</span>
-        </div>
-        <div class="catalog-hero__thumbs-item btn-hover_parent">
-            <div class="btn-hover_circle"></div><span>Эскимо</span>
-        </div>
-        <div class="catalog-hero__thumbs-item btn-hover_parent">
-            <div class="btn-hover_circle"></div><span>Рожок</span>
-        </div>
-        <div class="catalog-hero__thumbs-item btn-hover_parent">
-            <div class="btn-hover_circle"></div><span>Брикет на вафлях</span>
-        </div>
-        <div class="catalog-hero__thumbs-item btn-hover_parent">
-            <div class="btn-hover_circle"></div><span>Фруктовый и пищевой лёд</span>
-        </div>
-        <div class="catalog-hero__thumbs-item btn-hover_parent">
-            <div class="btn-hover_circle"></div><span>Картонный стакан</span>
-        </div>
-        <div class="catalog-hero__thumbs-item btn-hover_parent">
-            <div class="btn-hover_circle"></div><span>Пластиковый стакан</span>
-        </div>
-        <div class="catalog-hero__thumbs-item btn-hover_parent">
-            <div class="btn-hover_circle"></div><span>Сэндвич</span>
-        </div>
-        <div class="catalog-hero__thumbs-item btn-hover_parent">
-            <div class="btn-hover_circle"></div><span>Семейное и ванночки</span>
-        </div>
-        <div class="catalog-hero__thumbs-item btn-hover_parent">
-            <div class="btn-hover_circle"></div><span>Весовое</span>
-        </div>
-        <div class="catalog-hero__thumbs-item btn-hover_parent">
-            <div class="btn-hover_circle"></div><span>Лакомка</span>
-        </div>
+
+
+<? foreach ($arResult['SECTIONS'] as $key => $item) : ?>
+        <a href="<?= $item['SECTION_PAGE_URL'] ?>" class="catalog-hero__thumbs-item btn-hover_parent
+        <? if ($arParams['PARENT_SECTION_CODE'] == $item['CODE']) : ?>active<? endif ?>">
+            <div class="btn-hover_circle"></div>
+            <span><?= $item['NAME'] ?></span>
+        </a>
+<? endforeach; ?>
+
+
+
+
+
     </div>
     <div class="catalog-hero__activity" data-aos="fade-up"><label class="catalog-hero__tops desktop" for="top"><input
                 class="catalog-hero__tops-input catalog-check-desktop" type="checkbox" name="top" id="top">
