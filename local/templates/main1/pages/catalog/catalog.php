@@ -37,13 +37,25 @@ if (isset($urlArr[3])) {
 }
 
 
+// global $arrFilter;
+// $arrFilter = [
+// 	"=PROPERTY_is_it_cool" => "Да"
+// ];
 
 
+global $arrFilter;
+$arrFilter = [];
+// $arrFilter['=SECTION_CODE'] = 'morozhenoe';
 
 
-
-
-
+$arrFilter = [
+	// '=SECTION_CODE' => 'lakomka',
+	'=SECTION_CODE' => $urlArr[2],
+    // "=PROPERTY_is_it_new" => "code_value_for_yes",
+	// "PROPERTY_is_it_cool"=> 'Да'
+	// "PROPERTY_15_VALUE"=>"Да"
+	"PROPERTY_15_VALUE"=>"Да"
+];
 
 ?><?if( $whichPage == 1):?> <?$APPLICATION->IncludeComponent(
 	"bitrix:catalog.section.list",
@@ -89,7 +101,7 @@ if (isset($urlArr[3])) {
 		"AJAX_OPTION_HISTORY" => "N",
 		"AJAX_OPTION_JUMP" => "N",
 		"AJAX_OPTION_STYLE" => "Y",
-		"CACHE_FILTER" => "N",
+		"CACHE_FILTER" => "Y",
 		"CACHE_GROUPS" => "Y",
 		"CACHE_TIME" => "36000000",
 		"CACHE_TYPE" => "A",
@@ -106,7 +118,7 @@ if (isset($urlArr[3])) {
 			0 => "",
 			1 => "",
 		),
-		"FILTER_NAME" => "",
+		"FILTER_NAME" => "arrFilter",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
 		"IBLOCK_ID" => "4",
 		"IBLOCK_TYPE" => "slider",
